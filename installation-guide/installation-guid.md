@@ -3,7 +3,7 @@
 ## 確認主機板的開機模式
 
 ```console
-ls /sys/firmware/efi/efivarsls
+# vim ls /sys/firmware/efi/efivarsls
 ```
 
 如果資料夾不存在，代表電腦以BIOS模式開啟，有東西代表UEFI。
@@ -54,7 +54,7 @@ ls /sys/firmware/efi/efivarsls
 ## 安裝
 
 ```console
-/etc/pacman.d/mirrorlist
+# vim /etc/pacman.d/mirrorlist
 ```
 
 留下離自己比較近的server
@@ -92,8 +92,10 @@ ls /sys/firmware/efi/efivarsls
 ```
 
 ```console
-vim /etc/locale.conf
+# vim /etc/locale.conf
 ```
+
+寫入
 
 ```bash
 LANG=en_US.UTF-8
@@ -105,6 +107,8 @@ LANG=en_US.UTF-8
 # vim /etc/hostname
 ```
 
+寫入
+
 ```bash
 myhostname
 ```
@@ -112,6 +116,8 @@ myhostname
 ```console
 # vim /etc/hosts
 ```
+
+寫入
 
 ```bash
 127.0.0.1    localhost
@@ -129,10 +135,10 @@ myhostname
 
 加入使用者
 
-```bash
-useradd -m USERNAME
-passwd USERNAME
-usermod -aG wheel,audio,video,optical,storage USERNAME
+```console
+# useradd -m USERNAME
+# passwd USERNAME
+# usermod -aG wheel,audio,video,optical,storage USERNAME
 ```
 
 權限設置
