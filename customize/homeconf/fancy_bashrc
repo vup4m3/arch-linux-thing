@@ -82,6 +82,7 @@
 ##
 ##	Original source: WOLFMAN'S color bash promt
 ##	https://wiki.chakralinux.org/index.php?title=Color_Bash_Prompt#Wolfman.27s
+
 ##
 bash_prompt_command() {
 	# How many characters of the $PWD should be kept
@@ -89,7 +90,6 @@ bash_prompt_command() {
 
 	# Indicate that there has been dir truncation
 	local trunc_symbol=".."
-
 	# Store local dir
 	local dir=${PWD##*/}
 
@@ -417,8 +417,8 @@ unset bash_prompt
 alias ls='ls --color=auto'
 alias grep='grep --colour=auto'
 alias egrep='egrep --colour=auto'
-alias fgrep='fgrep --colour=auto
+alias fgrep='fgrep --colour=auto'
 alias la='ls -a'
 alias ll='ls -l'
 alias cya='poweroff'
-alias clr='clear
+alias clr='clear'
