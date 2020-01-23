@@ -1,31 +1,32 @@
- 
-INSTALATION
+# League of legends installation guide 
 
-    Make sure you have lastest drivers for your GPU (64 and 32 bit!)
+## INSTALATION
 
-    AMD: https://wiki.archlinux.org/index.php/AMDGPU
+Make sure you have lastest drivers for your GPU (64 and 32 bit!)
 
-    NVIDIA: https://wiki.archlinux.org/index.php/NVIDIA
+[AMD](https://wiki.archlinux.org/index.php/AMDGPU)
 
-    Install Vulkan (64 and 32 bit!)
+[NVIDIA](https://wiki.archlinux.org/index.php/NVIDIA) 
+
+Install Vulkan (64 and 32 bit!)
 
     https://wiki.archlinux.org/index.php/Vulkan
 
-    Install Wine
+Install Wine
 
     https://wiki.archlinux.org/index.php/Wine
 
-    Install Lutris from AUR
+Install Lutris from AUR
 
     https://lutris.net/downloads/
 
-    Go to https://lutris.net/games/league-of-legends/ and click install in first installation with golden dot(MPORTANT: Uncheck 'Launch League of Legends now?' at the end of the League install wizard.)
+Go to https://lutris.net/games/league-of-legends/ and click install in first installation with golden dot(MPORTANT: Uncheck 'Launch League of Legends now?' at the end of the League install wizard.)
 
-    Sometimes you must run this command in terminal if game wont run: sudo sh -c '`sysctl -w abi.vsyscall32=0'`
+Sometimes you must run this command in terminal if game wont run: sudo sh -c '`sysctl -w abi.vsyscall32=0'`
 
-OPTIMALIZATION
+## OPTIMALIZATION
 
-Lutris
+### Lutris
 
     Go to configure tab in lutris
 
@@ -61,7 +62,7 @@ Lutris
 
     (pulse_latency) - (true)
 
-Client
+### Client
 
     Lunch game, if the bugsplat is showing up just close it and if in lutris the big "Stop" button will change to "Play" click it again, if the button is "Stop" for longer time just wait its propably will launch if not you can post logs in comment and i or someone else will try to help
 
