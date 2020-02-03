@@ -219,14 +219,14 @@ bash_prompt() {
 	local TEXTEFFECT_1=$BOLD
 	
 	local FONT_COLOR_2=$WHITE
-	local BACKGROUND_2=$L_BLUE
+	local BACKGROUND_2=$RED
 	local TEXTEFFECT_2=$BOLD
 	
 	local FONT_COLOR_3=$D_GRAY
 	local BACKGROUND_3=$WHITE
 	local TEXTEFFECT_3=$BOLD
 	
-	local PROMT_FORMAT=$BLUE_BOLD
+	local PROMT_FORMAT=$TOXIC_GREEN_BOLD
 
 	
 	############################################################################
@@ -410,10 +410,6 @@ PROMPT_COMMAND=bash_prompt_command
 bash_prompt
 unset bash_prompt
 
-
-
-### EOF ###
-
 alias ls='ls --color=auto'
 alias grep='grep --colour=auto'
 alias egrep='egrep --colour=auto'
@@ -422,3 +418,14 @@ alias la='ls -a'
 alias ll='ls -l'
 alias cya='poweroff'
 alias clr='clear'
+alias gpum='optimus-manager --switch nvidia'
+## color for man
+export LESS_TERMCAP_mb=$'\e[1;32m'
+export LESS_TERMCAP_md=$'\e[1;32m'
+export LESS_TERMCAP_me=$'\e[0m'
+export LESS_TERMCAP_se=$'\e[0m'
+export LESS_TERMCAP_so=$'\e[01;33m'
+export LESS_TERMCAP_ue=$'\e[0m'
+export LESS_TERMCAP_us=$'\e[1;4;31m'
+
+### EOF ###
