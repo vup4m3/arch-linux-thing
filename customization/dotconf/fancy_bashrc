@@ -219,14 +219,14 @@ bash_prompt() {
 	local TEXTEFFECT_1=$BOLD
 	
 	local FONT_COLOR_2=$WHITE
-	local BACKGROUND_2=$RED
+	local BACKGROUND_2=$L_BLUE
 	local TEXTEFFECT_2=$BOLD
 	
 	local FONT_COLOR_3=$D_GRAY
 	local BACKGROUND_3=$WHITE
 	local TEXTEFFECT_3=$BOLD
 	
-	local PROMT_FORMAT=$TOXIC_GREEN_BOLD
+	local PROMT_FORMAT=$BLUE_BOLD
 
 	
 	############################################################################
@@ -418,7 +418,6 @@ alias la='ls -a'
 alias ll='ls -l'
 alias cya='poweroff'
 alias clr='clear'
-alias gpum='optimus-manager --switch nvidia'
 ## color for man
 export LESS_TERMCAP_mb=$'\e[1;32m'
 export LESS_TERMCAP_md=$'\e[1;32m'
