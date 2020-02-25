@@ -3,7 +3,7 @@
 ## desktop entry
 
 ```console
-vim ~/.local/share/applications/st.desktop
+$ vim ~/.local/share/applications/st.desktop
 ```
 
 ```bash
