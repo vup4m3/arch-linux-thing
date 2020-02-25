@@ -162,7 +162,7 @@ myhostname
 ```console
 # pacman -S dhcpcd
 # pacman -S networkmanager
-# systemctl NetworkManager.service
+# systemctl enable NetworkManager.service
 ```
 
 ### 無線網路設定
@@ -171,7 +171,7 @@ myhostname
 # pacman -S netctl
 # pacman -S dialog
 # pacman -S networkmanager
-# systemctl NetworkManager.service
+# systemctl enable NetworkManager.service
 
 ```
 
