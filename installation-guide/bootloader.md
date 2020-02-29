@@ -1,6 +1,6 @@
 # Boot Loader
 
-# Add window to grub
+##  Add Window to grub
 
 ```console
 $ mkdir -p /mnt/windows
